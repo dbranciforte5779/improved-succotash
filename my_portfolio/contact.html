@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Diego's Corner</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/tui6jfw.css">
+<style type="text/css">
+	main, aside {
+		height: 600px;
+	}
+</style>
+</head>
+
+<body>
+<div id="container">
+  <header></header>
+  <nav>
+	<ul>
+	  <li><a href="about.html">ABOUT</a></li>
+	  <li><a href="blog.html">BLOG</a></li>
+	  <li><a href="gallery.html">GALLERY</a></li>
+	  <li><a href="contact.html">CONTACT</a></li>
+	</ul>
+  </nav>
+  <!--Begin floated elements-->
+  <aside>
+    <p>Lorem</p>
+	<p>Ipsum</p>
+	<p>Dolor</p>
+	<p>Sit</p>
+	<p>Amet</p>
+	<p>Consectetur</p>
+	<p>Adipiscing</p>
+	<p>Elit</p>
+  </aside>
+  <main>
+    <h1>Contact Me</h1>
+	<form>
+	  <p>Name: <input name="user_name" type="text" id="user_name" value="Please enter your first and last name" size="50"></p>
+	  <p>Email: <input name="user_email" type="email" id="user_email" value="Please enter your email" size="50"></p>
+	  <p>Message: <br><br><textarea name="user_comment" cols="77" rows="10" id="user_comment"></textarea></p>
+	  <p>How did you hear about this blog?<br>
+	    <label>
+	      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+	      Search Engine</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+	      Social Media</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+	      Friend</label>
+	    <br>
+	    <label>
+	      <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3">
+	      Business Card</label>
+	    <br>
+      </p>
+	  <input type="submit" class="submit_btn" formaction="comment-box.php" formmethod="POST" value="SEND">
+    </form>
+  </main>
+  <!--End floated elements-->
+  <footer>© 2022 Diego Branciforte</footer>
+</div>
+</body>
+</html>
